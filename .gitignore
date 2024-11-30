@@ -1,9 +1,10 @@
-# cmd repository generated files to ignore
+# cmd project generated files to ignore
 #  if you want to ignore files created by your editor/tools,
-#  please consider a global .gitignore https://help.github.com/articles/ignoring-files
+#  please consider a global .gitignore https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
 #  please do not open a pull request to add something created by your editor or tools
 
-# github/gitignore/go.gitignore
+# github/gitignore/Go
+#
 # Binaries for programs and plugins
 *.exe
 *.exe~
@@ -17,7 +18,7 @@
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
 
-# Dependency directories (remove the comment below to include it)
+# Dependency directories
 vendor/
 
 # Compiled Object files, Static and Dynamic libs (Shared Objects)
@@ -42,7 +43,12 @@ _cgo_export.*
 # test generated
 _testmain.go
 
-# profile
+# benchmark
+old.txt
+new.txt
+bench.txt
+
+# pprof
 *.pprof
 
 # coverage
